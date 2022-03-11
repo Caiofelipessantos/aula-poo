@@ -11,6 +11,7 @@ public class Prog12 {
                 JOptionPane.QUESTION_MESSAGE
         ));
 
+        //Estrutura de Repetição 'for'
         for (int i = 1; i <= num; i++) {
             msg += i + " ";
             //Quebra de linha a cada 20 números
