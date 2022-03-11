@@ -1,3 +1,5 @@
+package com.homeworks;
+
 import javax.swing.JOptionPane;
 
 public class Home4 {  
