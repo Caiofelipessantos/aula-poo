@@ -36,7 +36,7 @@ public class App {
             return false;
         } 
         try {
-            short s = Short.parseShort(num);
+            Short.parseShort(num);
         } catch (NumberFormatException e) {
             return false;
         }
