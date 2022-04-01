@@ -22,7 +22,7 @@ public class Prog12 {
 
         JOptionPane.showMessageDialog(null,
                 msg,
-                "Contando até " + num,
+                "Contando até ".concat(String.valueOf(num)),
                 JOptionPane.INFORMATION_MESSAGE
         );
     }
