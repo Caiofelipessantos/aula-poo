@@ -13,11 +13,8 @@ public class Extra6 {
 
     public static String Skip(Integer numberOfLines) {
         String lines = "";
-        int count = 0;
-        while (count < numberOfLines) {
+        for (int count = 0; count < numberOfLines; count++)
             lines += "\n";
-            count++;
-        }
         return lines;
     }
 }
